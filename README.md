@@ -38,7 +38,7 @@ After incorporating subwords, the model was retrained and evaluated again, achie
 7. Model Testing & Predictions:
 A helper function, predict_language(), was created to classify the language of new text inputs. It preprocesses the input, splits it into subwords, and feeds it to the trained Naive Bayes model.
 
-8. Challenges:
+## Challenges:
 Confusion between Czech and Slovak: The model's performance improved but still struggled with the similarities between Czech and Slovak.
 Experimenting with Subwords: Using subwords showed potential for improving model accuracy by capturing more nuanced differences between similar words.
 
